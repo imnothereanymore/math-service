@@ -1,0 +1,9 @@
+?version: '3.7'
+
+services:     
+  web:
+    container_name: math-service
+    hostname: app
+    build: ./
+    ports:
+      - "0.0.0.0:3005:3005"
