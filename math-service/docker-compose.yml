@@ -2,7 +2,7 @@ version: '3.7'
 
 services:     
   web:
-    container_name: math-service
+    container_name: homework
     hostname: app
     build: ./
     ports:
